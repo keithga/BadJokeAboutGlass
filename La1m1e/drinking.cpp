@@ -7,7 +7,7 @@ class Glass
 {
 public:
    float volume = 0;
-   float maxVolume = 100;
+   float maxVolume = 85;
    bool isEmpty() const
    {
        return volume == 0;
