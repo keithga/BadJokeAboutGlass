@@ -3,15 +3,15 @@
 
 float timeOfTheDay = 0;
 
-class Glass  
-{  
-public:  
-   float volume = 0;  
-   float maxVolume = 100;  
+class Glass
+{
+public:
+   float volume = 0;
+   float maxVolume = 100;
    bool isEmpty() const
-   {  
-       return volume == 0;  
-   };  
+   {
+       return volume == 0;
+   };
 };
 
 class User
